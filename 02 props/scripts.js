@@ -5,13 +5,12 @@ var Car = React.createClass({
   	},
 
 	render: function() {
-		return
-		<div>
+		return <div>
 		  Car: {this.props.make} {this.props.model}
 		</div>;
 	}
 });
 
 ReactDOM.render(
-	<Car make="Citroen"/>,
+	<Car make="Citroen" model="Dianne"/>,
 	document.getElementById('root'));
